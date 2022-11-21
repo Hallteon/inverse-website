@@ -7,8 +7,6 @@
 
 @media (width > 736px) {
     .header {
-        padding-left: 24px;
-        padding-right: 24px;
         grid-template-columns: max-content max-content;
         justify-content: space-between;
     }

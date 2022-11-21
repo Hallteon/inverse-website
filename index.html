@@ -18,8 +18,7 @@
 <body class="page__body">
 <header class="header">
     <div class="header__logo logo">
-        <img class="logo__image" src="img/inVERSE.svg" alt="">
-
+        <span class="header__logo logo"><a class="font-bold"><p>in<span>VERSE</span></p></a></span>
     </div>
     <nav class="header__menu menu">
         <button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__list">
@@ -38,33 +37,24 @@
         </ul>
     </nav>
 </header>
-<main>
+
+<section class="section">
     <div class="container-fluid">
-        <div>
-            <div class="row">
-                <div class="col-7">
-                    <p class="text_1">
-                        Всероссийская образовательная инициатива
-                        по поиску и реализации научно-технологических
-                        проектов школьниками под руководством наставников
-                    </p>
-                </div>
-                <div class="col-5">
-                    <img class="first_image" src="img/logo1.svg" alt="#">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
         <div class="row">
-            <h2>О программе</h2>
-            <div class="col-5">
+            <div class="col-lg-7 text-block">
+                <p class="section__text">
+                    Всероссийская образовательная инициатива
+                    по поиску и реализации научно-технологических
+                    проектов школьниками под руководством наставников
+                </p>
             </div>
-            <div class="col-7">
+            <div class="col-xs-9 col-md-9 col-lg-5 image-block">
+                <img class="img-fluid section__image" src="img/logo1.png" alt="#">
             </div>
         </div>
     </div>
-</main>
+</section>
+
 <script>
     (() => {
         const menuButton = document.querySelector('.menu__button');
