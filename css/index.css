@@ -5,26 +5,7 @@
 @import 'blocks_header/menu.css';
 @import 'blocks_header/main.css';
 
-
-.section {
-    padding: 0 16px;
-}
-
-.text-block {
-    padding: 0;
-}
-
-.text-block p {
-    margin-top: 150px;
-    font-weight: 400;
-    font-family: 'Raleway', sans-serif;
-    font-size: calc(15px + 1vw);
-    line-height: inherit;
-    color: #343434;
-}
-
-p {
-    margin-top: 27px;
+.header__logo p {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -35,7 +16,7 @@ p {
     word-spacing: 0;
 }
 
-p span {
+.header__logo p span {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -50,9 +31,42 @@ body {
     font-style: normal;
 }
 
+
+.section {
+    padding: 0 16px;
+}
+
+.text-block {
+    padding: 0;
+}
+
+.text-block p {
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(12px + 1vw);
+    line-height: inherit;
+    color: #343434;
+}
+
+.text-block__title {
+    color: #5222D0;
+    font-size: calc(22px + 1vw);
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 40px;
+}
+
+.text-block_summary {
+    margin-top: 150px;
+}
+
+.about {
+    margin-top: 100px;
+}
+
 @media (max-width: 1200px) {
-    .text-block {
-        margin-top: 0;
+    .text-block_summary {
+        margin-top: 50px;
     }
 }
 
