@@ -1,5 +1,4 @@
 /* Logo */
-
 .logo {
     display: grid;
     column-gap: 8px;
@@ -23,10 +22,15 @@
 /* Title */
 
 .logo__title {
-    margin: 0;
-    letter-spacing: -0.03em;
-    font-weight: normal;
-    font-size: 20px;
+    margin-top: 27px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 63px;
+    color: #A0A0A0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    word-spacing: 0;
 }
 
 @media (width <= 736px) {

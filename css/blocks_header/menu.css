@@ -67,6 +67,7 @@
         display: none;
         font-style: normal;
         font-weight: 600;
+
         row-gap: 8px;
         padding-top: 12px;
         padding-bottom: 22px;
@@ -97,16 +98,15 @@ a{
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
-    line-height: 33px;
+    line-height: 30px;
 }
 @media (min-width: 320px){
     .menu__item{
         font-weight: 600;
-        font-size: 14px;
+        font-size: 16px;
         font-style: normal;
     }
 }
-
 @media (min-width: 738px) {
     .menu__item{
         font-weight: 600;

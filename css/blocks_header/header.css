@@ -17,6 +17,7 @@
 @media (width <= 736px) {
     .header__logo {
         z-index: 1;
+        margin-top: 1px;
     }
 }
 
