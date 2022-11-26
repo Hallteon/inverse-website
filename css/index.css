@@ -40,7 +40,7 @@ body {
     padding: 0;
 }
 
-.text-block p {
+.text-block__text {
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
     font-size: calc(12px + 1vw);
@@ -48,20 +48,65 @@ body {
     color: #343434;
 }
 
+.text-block__text_unit {
+    margin: 0;
+}
+
+.text-block__text_center {
+    text-align: center;
+}
+
+.text-block__text-title {
+    margin: 0;
+}
+
 .text-block__title {
     color: #5222D0;
     font-size: calc(22px + 1vw);
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
+}
+
+.text-block__title_left {
     margin-left: 40px;
 }
 
-.text-block_summary {
+.text-block__title_center {
+    text-align: center;
+}
+
+.text-block_summary, .text-block_goal {
     margin-top: 150px;
+}
+
+.text-block_advantages {
+    margin-top: 50px;
+}
+
+.colored_text {
+    color: #5222D0;
+}
+
+.line {
+    display: none;
 }
 
 .about {
     margin-top: 100px;
+}
+
+.dates {
+    margin-top: 60px;
+}
+
+.advantages {
+    margin-top: 60px;
+}
+
+@media (max-width: 1400px) {
+    .image-block__image_partners {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -70,8 +115,30 @@ body {
     }
 }
 
+@media (min-width: 992px) and (max-width: 1320px) {
+    .image-block__image_partners {
+        height: 85%;
+    }
+}
+
+@media (max-width: 992px) {
+    .line {
+        display: block;
+    }
+
+    .about, .text-block_goal, .text-block_advantages {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-block__text_center {
+        text-align: left;
+    }
+}
+
 @media (max-width: 576px) {
-    .section__image {
+    .image-block__image {
         margin-top: 30px;
     }
 }
