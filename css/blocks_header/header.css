@@ -2,7 +2,7 @@
 
 .header {
     display: grid;
-    padding: 16px;
+    padding: 30px;
 }
 
 @media (width > 736px) {
